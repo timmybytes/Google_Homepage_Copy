@@ -1,0 +1,221 @@
+/* ?General */
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+/* .border {
+  border: black;
+  border-style: solid;
+  border-width: 0.5px;
+} */
+
+/* ?Flex */
+.f-container-row {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+.f-container-row-center {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+.f-container-column {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.f-item {
+  margin: auto;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  margin: 5px;
+}
+.f-item-center {
+  margin: auto;
+  /* justify-content: center; */
+  /* flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+}
+
+/* ?Header */
+header {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: rgba(0, 0, 0, .87);
+}
+header a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .87);
+}
+header a:hover {
+  text-decoration: underline;
+}
+.fa-th {
+  color: rgba(0, 0, 0, .47);
+  text-decoration: none;
+}
+.fa-th:hover {
+  color: rgba(0, 0, 0, .87);
+}
+.sign-in {
+  background-color: #4285f4;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 7px 13px 7px 13px;
+  font-size: 13px;
+}
+
+/* ?Logo Section */
+section {
+  display: flex;
+  /* flex-direction: column; */
+}
+img.logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  padding: 109px 0 0;
+  height: 92px;
+}
+
+/* ?Search Bar */
+/* https://www.google.com/search?hl=en&q= */
+.searchbar {
+  align-content: space-between;
+  margin: 20px auto;
+  padding: 10px 10px 10px 10px;
+  height: 46px;
+  width: 484px;
+  border-radius: 25px;
+  border: rgb(154, 160, 166, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+.searchbar:hover {
+  box-shadow: 0px 0.5px 2px black;
+}
+input {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  height: auto;
+  border: none;
+  width: 400px;
+  padding: 4px 12px;
+  position: relative;
+  line-height: 1.5;
+  bottom: 5px;
+}
+input:hover {
+  border-style: none;
+}
+.fa-search {
+  color: #9AA0A6;
+}
+.fa-microphone {
+  color: #9AA0A6;
+}
+.mic {
+  width: 3.5%;
+  padding: 0 5px;
+}
+.mag {
+  position: relative;
+  top: -4.5px;
+}
+
+/* ?Buttons */
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  margin: 0.25rem;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background: #4285f4;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  margin: 11px 4px;
+}
+.button-1 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border-radius: ;
+  width: 127px;
+  height: 36px;
+  padding: 5px;
+}
+.button-1:hover {
+  box-shadow: 0px 0.5px 2px black;
+}
+.button-2 {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  margin: 11px 4px;
+  width: 142.5px;
+  height: 36px;
+  padding: 0 16px;
+}
+.button-1:hover {
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  color: #5F6368;
+}
+.button-2:hover {
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  color: #5F6368;
+}
+
+/* ?Footer */
+footer {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  background-color: #f2f2f2;
+}
+footer a {
+  text-decoration: none;
+  color: #5f6368;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.foot-text {
+  padding: 0 10px 0 10px;
+}
