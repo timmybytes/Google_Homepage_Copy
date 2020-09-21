@@ -1,6 +1,8 @@
 # Google Homepage Copy
 
-This is a recreation of Google's homepage using nothing but HTML/CSS for practice. All links redirect to their appropriate Google counterparts, and the search box is functional and redirects to a Google search.
+This is a recreation of Google's homepage using nothing but HTML/CSS for practice. All links redirect to their appropriate Google counterparts, and the search box is functional and redirects to a Google search. [Try it here](https://timmybytes.github.io/Google_Homepage_Copy/).
+
+> > > > > > > 717a8955c0a5326bf6edbf150d8dbd6fea8d9088
 
 ### Demo in Chrome
 
